@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700);
+$font-family-base: Open Sans;
+$headings-font-family: Open Sans;
+
+$primary: #528078;
+$secondary: #2b433e;
+$success: #fec100;
+$danger: #db7474;
+$info: #63e792;
+$warning: #eed75a;
+$light: #fdfbf7;
+$dark: #555555;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.color-picker {
+  width: 50%;
+  margin-bottom: -35px;
+}
+.color-picker input {
+  visibility: hidden;
+  width: 0;
+  margin: 0;
+}
+.color-picker label {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.color-picker input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  left: 10px;
+  top: 6px;
+  opacity: 0.5;
+  width: 5px;
+  height: 10px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.trash {
+  cursor: pointer;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
