@@ -21,3 +21,4 @@ This is a simple note-taking application built with [Vite](https://vitejs.dev/) 
 ## Screenshots
 ![note-app](/src/assets/note-app-1.png)
 ![note-app](/src/assets/note-app-2.png)
+![note-app](/src/assets/note-app-3.png)
