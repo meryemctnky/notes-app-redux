@@ -21,6 +21,7 @@ const AddModal = (props) => {
     dispatch(addNote(newNote));
     setTitle('');
     setText('');
+    onHide();
   };
 
   
